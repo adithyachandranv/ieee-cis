@@ -1,0 +1,93 @@
+body {
+    background-color: rgba(21, 1, 38, 1);
+    font-family: poppins;
+    overflow-x: hidden;
+}
+
+
+.trans-nav {
+
+    margin-left: -8px;
+    margin-top: -20px;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(21, 1, 38, 1);
+}
+
+
+/* Style the navigation menu */
+.topnav {
+    width: 96.04vw;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+
+    color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+
+    color: white;
+}
+
+
+.ctc {
+    border-radius: 10px;
+    border: none;
+    height: 7vh;
+    width: 25vw;
+    background: linear-gradient(45deg, rgba(157, 0, 253, 1), rgba(175, 20, 156, 1), rgba(207, 18, 115, 1));
+}
+
+.landing-div {
+    border: solid 1px pink;
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+    justify-content: center;
+    /* Center elements vertically */
+    align-items: center;
+    /* Center elements horizontally */
+    gap: 10px;
+    /* Space between image and button */
+    margin-top: 15px;
+    height: 85vh;
+    border-radius: 10px;
+    background-color: rgba(45, 37, 79, 1);
+
+    width: 96vw;
+}
+
+.landing-div .landing-img {
+    height: 100px;
+}
